@@ -1,0 +1,6 @@
+framework module SNDataBinding {
+  umbrella header "SNDataBinding-umbrella.h"
+
+  export *
+  module * { export * }
+}

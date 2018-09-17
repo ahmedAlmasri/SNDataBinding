@@ -1,0 +1,16 @@
+PODS:
+  - SNDataBinding (0.1.0)
+
+DEPENDENCIES:
+  - SNDataBinding (from `../`)
+
+EXTERNAL SOURCES:
+  SNDataBinding:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SNDataBinding: ef7fdf02aaa04b62202f6233811a2c9cb0ec2e15
+
+PODFILE CHECKSUM: 5bd3e73dcf85f6a7a6a9ad033b91fde045506768
+
+COCOAPODS: 1.5.3
