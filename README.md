@@ -22,7 +22,7 @@ pod 'SNDataBinding'
 
 ## Author
 
-ahmedAlmasri, a.masri@genie-soft.com
+ahmedAlmasri, ahmed.almasri@ymail.com
 
 ## License
 
