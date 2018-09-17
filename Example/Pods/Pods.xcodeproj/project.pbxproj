@@ -15,7 +15,7 @@
 		758BE59D9C428123ADD7D4701B8C7401 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		84E468E1C0FFF40C97F699AB32925D06 /* SNDataBinding-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 715F36322DB9C6A46D6E2FF1BA4B7DC6 /* SNDataBinding-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BFD3A8AE26A1A99FD744BB88626B9029 /* Pods-SNDataBinding_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 903A1E80FD4C99CD7390BD2988F93B56 /* Pods-SNDataBinding_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CF2C855947405CD1DE7063D27E7F9E9A /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B9F6540578AAB23DA6A5F5E1429E35 /* ReplaceMe.swift */; };
+		CF2C855947405CD1DE7063D27E7F9E9A /* SNDataBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B9F6540578AAB23DA6A5F5E1429E35 /* SNDataBinding.swift */; };
 		D5D600C514721A04E1FD8AF9D30E89C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,7 +49,7 @@
 		3B51FF14ECA55E0AF1F06B5F6A925549 /* Pods-SNDataBinding_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SNDataBinding_Example.modulemap"; sourceTree = "<group>"; };
 		3C4251A42D085561AD9EB411BCCBE53C /* Pods-SNDataBinding_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SNDataBinding_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		444C1308F7F5703630C3F240EA8858FF /* Pods-SNDataBinding_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SNDataBinding_Example-frameworks.sh"; sourceTree = "<group>"; };
-		55B9F6540578AAB23DA6A5F5E1429E35 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SNDataBinding/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		55B9F6540578AAB23DA6A5F5E1429E35 /* SNDataBinding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SNDataBinding.swift; path = SNDataBinding/Classes/SNDataBinding.swift; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		715F36322DB9C6A46D6E2FF1BA4B7DC6 /* SNDataBinding-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SNDataBinding-umbrella.h"; sourceTree = "<group>"; };
 		71AA2675C3731ABE258A70931BB7804A /* Pods-SNDataBinding_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SNDataBinding_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -151,7 +151,7 @@
 		530B8515FB0AF96F7E518D1C00CF5137 /* SNDataBinding */ = {
 			isa = PBXGroup;
 			children = (
-				55B9F6540578AAB23DA6A5F5E1429E35 /* ReplaceMe.swift */,
+				55B9F6540578AAB23DA6A5F5E1429E35 /* SNDataBinding.swift */,
 				25B700E14BCD62BB7256601FC48E069D /* Pod */,
 				9C4FC1099F5501F1CE06830E0146A1B7 /* Support Files */,
 			);
@@ -359,7 +359,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF2C855947405CD1DE7063D27E7F9E9A /* ReplaceMe.swift in Sources */,
+				CF2C855947405CD1DE7063D27E7F9E9A /* SNDataBinding.swift in Sources */,
 				47E4440694658117A45606FF46A07EB6 /* SNDataBinding-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,12 +7,24 @@
 //
 
 import UIKit
+import SNDataBinding
+
+@objcMembers
+ class TestModel: Bindable {
+  var name: String = ""
+   var Placeholder = "test"
+    init(name: String ) {
+        self.name = name
+    }
+}
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let testModel = TestModel(name: "Ahmad")
+        self.view.bind(withObject: testModel.toDictionary())
+        testModel.name = "ali"
     }
 
     override func didReceiveMemoryWarning() {
