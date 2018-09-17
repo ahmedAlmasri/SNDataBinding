@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SNDataBinding_Example' do
+  pod 'SNDataBinding', :path => '../'
+
+  target 'SNDataBinding_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
